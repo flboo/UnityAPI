@@ -1,4 +1,4 @@
-function BinarySearch1(array,n)
+function  BinarySearch1s(array,n)
 	local left = 0
 	local right = #array+1
 	while(right - left ~= 1) do
@@ -13,6 +13,5 @@ function BinarySearch1(array,n)
 	end
 	return -1
 end
-array = {1,2,3,4,5}
-print(BinarySearch1(array,1))
-
+local array = {1,2,3,4,5}
+print(BinarySearch1s(array,1))

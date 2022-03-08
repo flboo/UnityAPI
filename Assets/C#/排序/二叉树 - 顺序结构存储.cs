@@ -79,7 +79,7 @@ namespace 二叉树___顺序结构存储
         /// <param name="index">索引(编号-1)</param>
         private void FirstTravers(int index)
         {
-            if (index>=count)
+            if (index >= count)
             {
                 return;
             }
@@ -150,7 +150,7 @@ namespace 二叉树___顺序结构存储
                 {
                     continue;
                 }
-                Console.Write(data[i] +" ");
+                Console.Write(data[i] + " ");
             }
             Console.WriteLine();
         }
